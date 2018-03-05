@@ -1,0 +1,4 @@
+C:\Users\Aluno_2\Desktop\Nova pasta\PrimeiroRenascido\PrimeiroRenascido\bin\Debug\PrimeiroRenascido.exe
+C:\Users\Aluno_2\Desktop\Nova pasta\PrimeiroRenascido\PrimeiroRenascido\bin\Debug\PrimeiroRenascido.pdb
+C:\Users\Aluno_2\Desktop\Nova pasta\PrimeiroRenascido\PrimeiroRenascido\obj\x86\Debug\PrimeiroRenascido.exe
+C:\Users\Aluno_2\Desktop\Nova pasta\PrimeiroRenascido\PrimeiroRenascido\obj\x86\Debug\PrimeiroRenascido.pdb
