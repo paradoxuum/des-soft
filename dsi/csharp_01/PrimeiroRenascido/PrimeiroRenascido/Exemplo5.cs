@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PrimeiroRenascido
 {
-    class Entrada_de_dados
+    class Exemplo5
     {
         public static void Entradas() 
         {

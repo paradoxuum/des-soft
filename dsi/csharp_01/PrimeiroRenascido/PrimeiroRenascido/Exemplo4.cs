@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PrimeiroRenascido
 {
-    class Cadeia
+    class Exemplo4
     {
         public static void Cadeias()
         {

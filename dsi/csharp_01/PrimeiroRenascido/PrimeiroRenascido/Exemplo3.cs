@@ -5,9 +5,9 @@ using System.Text;
 
 namespace PrimeiroRenascido
 {
-    class Contantes
+    class Exemplo3
     {
-        public static void Contante()
+        public static void Contantes()
         {
             //denifição de uma constante chamada "pi"
             const double pi = 3.14159265358979323846264338327950;

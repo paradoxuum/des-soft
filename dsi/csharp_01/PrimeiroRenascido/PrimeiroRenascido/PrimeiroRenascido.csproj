@@ -43,10 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cadeia.cs" />
-    <Compile Include="Contantes.cs" />
-    <Compile Include="Entrada_de_dados.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Exemplo4.cs" />
+    <Compile Include="Exemplo3.cs" />
+    <Compile Include="Exemplo6.cs" />
+    <Compile Include="Exemplo5.cs" />
+    <Compile Include="Exemplo2.cs" />
+    <Compile Include="Exemplo7.cs" />
+    <Compile Include="Exemplo8.cs" />
+    <Compile Include="Exemplo9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

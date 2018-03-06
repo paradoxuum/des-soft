@@ -6,3 +6,4 @@ G:\etec211\dsi\csharp_01\PrimeiroRenascido\PrimeiroRenascido\obj\x86\Debug\Prime
 G:\etec211\dsi\csharp_01\PrimeiroRenascido\PrimeiroRenascido\obj\x86\Debug\PrimeiroRenascido.pdb
 G:\etec211\dsi\csharp_01\PrimeiroRenascido\PrimeiroRenascido\bin\Debug\PrimeiroRenascido.exe
 G:\etec211\dsi\csharp_01\PrimeiroRenascido\PrimeiroRenascido\bin\Debug\PrimeiroRenascido.pdb
+G:\etec211\dsi\csharp_01\PrimeiroRenascido\PrimeiroRenascido\obj\x86\Debug\PrimeiroRenascido.csprojResolveAssemblyReference.cache
