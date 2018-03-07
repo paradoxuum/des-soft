@@ -10,13 +10,16 @@ namespace PrimeiroRenascido
         public static void Ternarios()
         {
             int a, b;
-            string verdade = "S", falso = "N";
+            string verdade = "Sim", falso = "Näo";
 
             Console.WriteLine("Digite um número inteiro: ");
             a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite outro número inteiro: ");
             b = int.Parse(Console.ReadLine());
-            Console.WriteLine
+            Console.WriteLine();
+            Console.Write("{0} > {1} ? Resposta: ", a, b);
+            Console.WriteLine(a > b ? verdade : falso);
+            Console.ReadKey();
         }
     }
 }
