@@ -1,5 +1,5 @@
---use master
---drop database aula02
+use master
+drop database aula02
 create database aula02
 go
 use aula02
@@ -22,7 +22,7 @@ create table tb_hardware (
 go
 create table tb_vendas(
 	id_venda int NOT NULL PRIMARY KEY IDENTITY (1,1),
-	id_cliente nvarchar(500),
+	id_cliente int, --FK
 	data date,
 	vlrtotal money,
 	desconto float,
@@ -31,8 +31,15 @@ create table tb_vendas(
 go
 create table tb_vendas_itens(
 	id_item int NOT NULL PRIMARY KEY IDENTITY (1,1),
-	id_venda int,
-	id_hardware int,
+	id_venda int, --FK
+	id_hardware int, --FK
 	total_item money
 	)
+go
+
+alter table tb_vendas add constraint fk_tb_clientes foreign key (id_cliente) references tb_clientes (id_cliente)
+go
+alter table tb_vendas_itens add constraint fk_tb_hardware foreign key (id_hardware) references tb_hardware (id_hardware)
+go
+alter table tb_vendas_itens add constraint fk_tb_venda foreign key (id_venda) references tb_vendas (id_venda)
 go
