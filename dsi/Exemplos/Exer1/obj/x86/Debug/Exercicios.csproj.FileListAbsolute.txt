@@ -1,0 +1,6 @@
+D:\Google Drive\Projects\Repository\exercicios-ds-i\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+D:\Google Drive\Projects\Repository\exercicios-ds-i\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
+D:\Google Drive\Projects\Repository\exercicios-ds-i\Exer1\Exer1\bin\Debug\Exer1.exe
+D:\Google Drive\Projects\Repository\exercicios-ds-i\Exer1\Exer1\bin\Debug\Exer1.pdb
+D:\Google Drive\Desktop\Exemplos\Exer1\obj\x86\Debug\Exer1.exe
+D:\Google Drive\Desktop\Exemplos\Exer1\obj\x86\Debug\Exer1.pdb
