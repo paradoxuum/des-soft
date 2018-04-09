@@ -1,8 +1,10 @@
 use master
-drop database aula02
-create database aula02
 go
-use aula02
+drop database Lojinha
+go
+create database Lojinha
+go
+use Lojinha
 go
 create table tb_clientes (
 	id_cliente int NOT NULL PRIMARY KEY IDENTITY (1,1), 
@@ -65,5 +67,5 @@ insert into tb_hardware(descricao, preco, qtde, qtde_min) values ('Memória Kings
 insert into tb_hardware(descricao, preco, qtde, qtde_min) values ('SSD Kingston 2.5´ 480GB A400 SATA III Leituras: 500MBs / Gravações: 450MBs - SA400S37/480G', 749.90, 49, 5);
 insert into tb_hardware(descricao, preco, qtde, qtde_min) values ('HD Seagate Externo Portátil Expansion USB 3.0 1TB Preto - STEA1000400', 269.90, 100, 11);
 
-select * from tb_hardware;
+select nome,fone from tb_clientes;
 
