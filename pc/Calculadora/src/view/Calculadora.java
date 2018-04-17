@@ -417,15 +417,7 @@ public class Calculadora extends JFrame {
 				}
 				else if(sinal.equals("mult")) {
 					visor.setText(mat.mult(valor1, valor2) + "");
-				}
-				
-				
-				else if(sinal.equals("frac")) {
-					visor.setText(mat.frac(valor1, valor2) + "");
-				}
-				
-				
-				
+				}	
 			}
 		});
 		
@@ -452,7 +444,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		
-		this.setSize(216, 310);
+		this.setSize(228, 322);
 		this.setVisible(true);
 		this.setResizable(false);
 		
