@@ -24,7 +24,7 @@ public class Calculadora extends JFrame {
 	ButtonGroup tipo = new ButtonGroup ();
 	
 	JMenu Exibir = new JMenu("Exibir");
-	JRadioButtonMenuItem radipadrao = new JRadioButtonMenuItem("Pad„o");
+	JRadioButtonMenuItem radipadrao = new JRadioButtonMenuItem("Pad√£o");
 	JRadioButtonMenuItem radicienti = new JRadioButtonMenuItem("Cientifica");
 	JRadioButtonMenuItem radiprograma = new JRadioButtonMenuItem("Programador");
 	JRadioButtonMenuItem radiestatist = new JRadioButtonMenuItem("Estatistica");
@@ -37,33 +37,33 @@ public class Calculadora extends JFrame {
 	JMenuBar menuBar = new JMenuBar();
 	
 	JTextField visor = new JTextField("0");
-	// primeira fileira de botıes
+	// primeira fileira de bot√µes
 	JButton btnMC = new JButton("MC");
 	JButton btnMR = new JButton("MR");
 	JButton btnMS = new JButton("MS");
 	JButton btnMais = new JButton("M+");
 	JButton btnMenos = new JButton("M-");
 	
-	//segunda fileira de botıes
+	//segunda fileira de bot√µes
 	JButton backsp = new JButton("<-");
 	JButton btnCE = new JButton("CE");
 	JButton btnC = new JButton("C");
 	JButton btnmom = new JButton("+/-");
 	JButton btnraiz = new JButton("Raiz");
 	
-	//botıes da terceira fileira
+	//bot√µes da terceira fileira
 	JButton btnbarra = new JButton("/");
 	JButton btnporc = new JButton("%");
 	
-	//botıes da quarta fileira
+	//bot√µes da quarta fileira
 	JButton btnmul = new JButton("*");
 	JButton btnfra = new JButton("1/x");
 	
-	//botıes da quinta fileira
+	//bot√µes da quinta fileira
 	JButton btnfmenos = new JButton("-");
 	JButton btnfigual = new JButton("=");
 	
-	//botıes da sexta fileira
+	//bot√µes da sexta fileira
 	JButton btnvirgula = new JButton(",");
 	JButton btnfmais = new JButton("+");
 	
@@ -100,7 +100,7 @@ public class Calculadora extends JFrame {
 		Exibir.add(radiprograma);
 		Exibir.add(radiestatist);
 		Exibir.addSeparator();
-		Exibir.add("HistÛrico       Crtl + H");
+		Exibir.add("Hist√≥rico       Crtl + H");
 		Exibir.add(cbAgrupamento);
 		Exibir.addSeparator();
 		Editar.setFont( new Font( "Arial", Font.PLAIN, 12 ));
@@ -136,11 +136,6 @@ public class Calculadora extends JFrame {
 		btnMais.setMargin(new Insets(1,1,1,1));
 		btnMais.setBounds(125, 95, 30,25);
 		paine.add(btnMais);
-		btnMais.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				sinal = "soma";
-			}
-		});
 		
 		btnMenos.setFont( new Font( "Arial", Font.PLAIN, 12 ) );
 		btnMenos.setMargin(new Insets(1,1,1,1));
@@ -179,11 +174,29 @@ public class Calculadora extends JFrame {
 		btnmom.setMargin(new Insets(1,1,1,1));
 		btnmom.setBounds(125, 125, 30, 25);
 		paine.add(btnmom);
+		btnmom.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				valor1 = Double.parseDouble(txtVisor.getText());
+				sinal = "MaisMenos";
+				if(sinal.equals("MaisMenos")) {
+					txtVisor.setText(mat.MaisMenos(valor1) + "");
+				}
+			}
+		});
 		
 		btnraiz.setFont( new Font( "Arial", Font.PLAIN, 12 ) );
 		btnraiz.setMargin(new Insets(1,1,1,1));
 		btnraiz.setBounds(160, 125, 30, 25);
 		paine.add(btnraiz);
+		btnraiz.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				valor1 = Double.parseDouble(txtVisor.getText());
+				sinal = "raiz";
+				if(sinal.equals("raiz")) {
+					txtVisor.setText(mat.raiz(valor1) + "");
+				}
+			}
+		});
 		
 		//terceira fileira
 		sete.setFont( new Font( "Arial", Font.PLAIN, 12 ) );
@@ -247,6 +260,13 @@ public class Calculadora extends JFrame {
 		btnporc.setMargin(new Insets(1,1,1,1));
 		btnporc.setBounds(160, 155, 30, 25);
 		paine.add(btnporc);
+		btnporc.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				valor2 = Double.parseDouble(txtVisor.getText());
+				valor2 = mat.porc(valor1, valor2);
+				txtVisor.setText(valor2 + "");
+			}
+		});
 		
 		//quarta fileira
 		quatro.setFont( new Font( "Arial", Font.PLAIN, 12 ) );
@@ -309,6 +329,16 @@ public class Calculadora extends JFrame {
 		btnfra.setMargin(new Insets(1,1,1,1));
 		btnfra.setBounds(160, 185, 30, 25);
 		paine.add(btnfra);
+		btnfra.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				valor1 = Double.parseDouble(txtVisor.getText());
+				sinal = "frac";
+				if(sinal.equals("frac")) {
+					txtVisor.setText(mat.frac(valor1) + "");
+				}
+				
+			}
+		});
 		
 		//quinta fileira
 		um.setFont(new Font("Arial", Font.PLAIN, 12));
@@ -388,6 +418,14 @@ public class Calculadora extends JFrame {
 				else if(sinal.equals("mult")) {
 					visor.setText(mat.mult(valor1, valor2) + "");
 				}
+				
+				
+				else if(sinal.equals("frac")) {
+					visor.setText(mat.frac(valor1, valor2) + "");
+				}
+				
+				
+				
 			}
 		});
 		
