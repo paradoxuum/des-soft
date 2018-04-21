@@ -1,0 +1,7 @@
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\bin\Debug\LoginCSharp.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\bin\Debug\LoginCSharp.pdb
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\obj\x86\Debug\LoginCSharp.Form1.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\obj\x86\Debug\LoginCSharp.Properties.Resources.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\obj\x86\Debug\LoginCSharp.csproj.GenerateResource.Cache
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\obj\x86\Debug\LoginCSharp.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\LoginCSharp\obj\x86\Debug\LoginCSharp.pdb
