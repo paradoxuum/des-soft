@@ -32,3 +32,4 @@ C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x
 C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Properties.Resources.resources
 C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.csproj.GenerateResource.Cache
 C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex7.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.csprojResolveAssemblyReference.cache

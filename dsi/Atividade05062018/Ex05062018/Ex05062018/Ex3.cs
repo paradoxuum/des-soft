@@ -20,30 +20,32 @@ namespace Ex05062018
         {
             try
             {
-                int l1 = int.Parse(lblValor1.Text);
-                int l2 = int.Parse(lblValor2.Text);
-                int l3 = int.Parse(lblValor3.Text);
+                float ladoA = float.Parse(TxtBox1.Text);
+                float ladoB = float.Parse(TxtBox2.Text);
+                float ladoC = float.Parse(TxtBox3.Text);
 
-                if (l1 == l2 && l2 == l3)
+                if (ladoA == ladoB && ladoB == ladoC && ladoC == ladoA)
                 {
-                    Result.Text = "Equilátero";
+                    Result.Text = "Triangulo Equilátero";
                 }
-                else if (l1 == l2 || l1 == l3 || l2 == l3)
+                else if (ladoA == ladoB || ladoB == ladoC || ladoC == ladoA)
                 {
-                    Result.Text = "Isósceles";
+                    Result.Text = "Triangulo Isósceles";
                 }
                 else
                 {
-                    Result.Text = "Escaleno";
+                    Result.Text = "Triangulo Escaleno";
                 }
             }
-            catch
-            {
-                lblValor1.Text = "";
-                lblValor1.Text = "";
-                lblValor1.Text = "";
-                Result.Text = "ERRO";
+            catch {
+                Result.Text = "Deu um Erro inesperado";
             }
+
+        }
+
+        private void Form_Ex3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
