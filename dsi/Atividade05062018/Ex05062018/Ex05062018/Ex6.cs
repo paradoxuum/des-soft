@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Ex05062018
 {
-    public partial class Form_Ex5 : Form
+    public partial class Form_Ex6 : Form
     {
-        public Form_Ex5()
+        public Form_Ex6()
         {
             InitializeComponent();
         }
@@ -22,16 +22,15 @@ namespace Ex05062018
 
             try
             {
-                for(int i=1; i<=numValor.Value; i++)
+                for (int i = 1; i <= int.Parse(TxtBoxNum.Text); i++)
                 {
-                    List.Items.Add(i);
+                    List.Items.Add("BRASIL!!!");
                 }
             }
-            catch 
+            catch
             {
                 List.Items.Add("Valor inválido");
             }
-
         }
     }
 }

@@ -18,3 +18,17 @@ C:\Users\Aluno\Desktop\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex0
 C:\Users\Aluno\Desktop\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex3.resources
 C:\Users\Aluno\Desktop\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex4.resources
 C:\Users\Aluno\Desktop\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex5.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.exe
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.pdb
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\bin\Debug\Ex05062018.exe
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\bin\Debug\Ex05062018.pdb
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex1.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex2.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex3.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex4.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex5.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex6.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.FormMain.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Properties.Resources.resources
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.csproj.GenerateResource.Cache
+C:\Users\Aluno\Desktop\etec211\dsi\Atividade05062018\Ex05062018\Ex05062018\obj\x86\Debug\Ex05062018.Form_Ex7.resources

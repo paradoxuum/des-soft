@@ -47,11 +47,15 @@ namespace Ex05062018
         }
         private void MenuItemEX6_Click(object sender, EventArgs e)
         {
-            
+            Form_Ex6 Ex6 = new Form_Ex6();
+            Ex6.MdiParent = this;
+            Ex6.Show();
         }
         private void MenuItemEX7_Click(object sender, EventArgs e)
         {
-            
+            Form_Ex7 Ex7 = new Form_Ex7();
+            Ex7.MdiParent = this;
+            Ex7.Show();
         }
 
         private void FormMain_Load(object sender, EventArgs e)
