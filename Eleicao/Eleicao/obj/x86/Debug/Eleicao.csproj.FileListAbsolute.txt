@@ -1,0 +1,9 @@
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\obj\x86\Debug\Eleicao.Properties.Resources.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\obj\x86\Debug\Eleicao.csproj.GenerateResource.Cache
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\bin\Debug\Eleicao.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\bin\Debug\Eleicao.pdb
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\obj\x86\Debug\Eleicao.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\obj\x86\Debug\Eleicao.pdb
+C:\Users\Aluno\AppData\Local\Temporary Projects\Eleicao\obj\x86\Debug\Eleicao.FormLogin.resources
+C:\Users\Aluno\documents\visual studio 2010\Projects\Eleicao\Eleicao\obj\x86\Debug\Eleicao.exe
+C:\Users\Aluno\documents\visual studio 2010\Projects\Eleicao\Eleicao\obj\x86\Debug\Eleicao.pdb
